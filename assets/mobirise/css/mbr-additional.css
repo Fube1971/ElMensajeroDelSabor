@@ -2198,6 +2198,11 @@ a {
 }
 .cid-uZPS0noRpT {
   display: flex;
+  background-image: url("../../../assets/images/chatgpt20image20620nov2020252023-40-31-1536x1024.png");
+}
+.cid-uZPS0noRpT .mbr-overlay {
+  background-color: #000000;
+  opacity: 0.5;
 }
 @media (min-width: 768px) {
   .cid-uZPS0noRpT {
@@ -2239,7 +2244,6 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/background1.jpg");
 }
 .cid-uZPS0noRpT .mbr-section-title,
 .cid-uZPS0noRpT .mbr-section-subtitle {
@@ -2317,6 +2321,7 @@ a {
 }
 .cid-v1PQojjcq5 .mbr-section-subtitle {
   color: #ffffff;
+  text-align: center;
 }
 .cid-v1PQojjcq5 .card-box {
   display: flex;
