@@ -150,20 +150,38 @@
   
   
 
-  <div class="text-center container">
-    <div class="row justify-content-center mb-4">
-      <div class="col-12 col-lg-8">
-       		<iframe>
-		      src="https://elmensajerodelsabor.netlify.app/"
-		      title="El Mensajero del Sabor - WebGL"
-		      loading="lazy"
-		      allow="autoplay; fullscreen"
-		      sandbox="allow-scripts allow-same-origin allow-pointer-lock"
-		      scrolling="no"
-		      style="position:absolute; inset:0; width:100%; height:100%; border:0; background:#000; overflow:hidden;">
-		    </iframe>
-      </div>
+  <!-- CONTENEDOR DEL JUEGO -->
+  <div class="juego-wrap"
+       style="
+         max-width: 1100px;
+         margin: 0 auto;
+       ">
+    <!-- Caja con relación 16:9 para que el iframe siempre se vea bien -->
+    <div style="
+          position: relative;
+          width: 100%;
+          aspect-ratio: 16 / 9;
+          background: #000;
+          overflow: hidden;
+          border-radius: 12px;
+        ">
+      <iframe
+        src="https://elmensajerodelsabor.netlify.app/"
+        title="El Mensajero del Sabor - WebGL"
+        loading="lazy"
+        allow="autoplay; fullscreen"
+        sandbox="allow-scripts allow-same-origin allow-pointer-lock"
+        scrolling="no"
+        style="
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+        ">
+      </iframe>
     </div>
+  </div>
     <div class="row justify-content-center">
       <div class="col-md-12 content-head">
         <h1 class="mbr-section-title mbr-fonts-style mt-4 display-2"><strong>Jugar ahora</strong></h1>
